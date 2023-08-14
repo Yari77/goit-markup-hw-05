@@ -953,6 +953,7 @@ letter-spacing: 0.04em;
 color: var(--navyblue-modal, rgba(46, 47, 66, 0.40));
 }
 
+
 .modal-comment:focus {
 border: var(--iris-cl);
 }
@@ -974,22 +975,22 @@ color: var(--iris-cl);
 }
 
 .modal-field-span {
+display: inline-flex;
 width: 16px;
 height: 16px;
 border: 1px solid rgba(46, 47, 66, 0.4); 
 border-radius: 2px;
 margin-right: 8px;
-display: inline-flex;
 align-items: center;
 justify-content: center;
 fill: transparent;
 transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-check:checked + .modal-field-span {
+.modal-check:checked + .modal-check-text .modal-field-span {
 border-radius: 1px;
 border: none;
-background-color: var(--ocean, #404BBF);
+background-color: var(--ocean-cl);
 fill: var(--cloud-cl);
 }
 
