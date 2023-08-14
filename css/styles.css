@@ -881,7 +881,7 @@ color: var(--main-cl);
 }
 
 .modal-field{
-margin-bottom: 24px;
+margin-bottom: 8px;
 }
 
 .modal-input {
@@ -992,6 +992,10 @@ border-radius: 1px;
 border: none;
 background-color: var(--ocean-cl);
 fill: var(--cloud-cl);
+}
+
+.modal-field-checkbox {
+margin-bottom: 16px;
 }
 
 .send-modal-btn {
