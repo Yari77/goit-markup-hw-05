@@ -966,7 +966,6 @@ font-weight: 400;
 line-height: 1.17;
 letter-spacing: 0.04em;
 color: var(--lightslate-cl);
-display: flex;
 align-items: center;
 }
 
@@ -994,8 +993,12 @@ background-color: var(--ocean-cl);
 fill: var(--cloud-cl);
 }
 
-.modal-field-checkbox {
+.modal-field-comment {
 margin-bottom: 16px;
+}
+
+.modal-field-checkbox {
+margin-bottom: 24px;
 }
 
 .send-modal-btn {
@@ -1014,7 +1017,7 @@ gap: 10px;
 border-radius: 4px;
 box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 border: none;
-margin: 24px 120px 24px 100px;
+margin: 0 120px 24px 100px;
 min-width: 169px;
 height: 56px;
 transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
